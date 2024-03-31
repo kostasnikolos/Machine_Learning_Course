@@ -38,3 +38,4 @@ pr=clf.predict(X_test)
 #  test the result using score method
 score=clf.score(X_test,y_test)
 print(score)
+print(score)
