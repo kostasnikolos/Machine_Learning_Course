@@ -21,7 +21,7 @@ plt.scatter(df['Age(yrs)'],df['Sell Price($)'])
 X= df[['Mileage','Age(yrs)']]
 y= df['Sell Price($)']
 
-
+print("HELLOWORLD")
 # Splitting the data into training and testing sets (80% train, 20% test)
 # using random state means the samples will not change in every exevution
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5, random_state=42)
