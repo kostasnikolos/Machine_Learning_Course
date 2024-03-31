@@ -19,6 +19,7 @@ plt.scatter(df['Age(yrs)'],df['Sell Price($)'])
 # plt.show()
 
 X= df[['Mileage','Age(yrs)']]
+# fojsosdjj
 y= df['Sell Price($)']
 
 
