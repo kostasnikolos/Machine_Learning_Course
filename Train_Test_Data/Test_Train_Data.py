@@ -31,6 +31,7 @@ clf= LinearRegression()
 clf.fit(X_train,y_train)
 
 # predict
+# petros
 
 pr=clf.predict(X_test)
 
