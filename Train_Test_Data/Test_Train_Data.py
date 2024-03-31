@@ -19,8 +19,7 @@ plt.scatter(df['Age(yrs)'],df['Sell Price($)'])
 # plt.show()
 
 X= df[['Mileage','Age(yrs)']]
-X= df[['Mileage','Age(yrs)']]
-X= df[['Mileage','Age(yrs)']]
+# fojsosdjj
 X= df[['Mileage','Age(yrs)']]
 y= df['Sell Price($)']
 
@@ -40,4 +39,5 @@ pr=clf.predict(X_test)
 
 #  test the result using score method
 score=clf.score(X_test,y_test)
+print(score)
 print(score)
